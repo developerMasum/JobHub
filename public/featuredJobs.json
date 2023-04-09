@@ -1,0 +1,117 @@
+ [
+    {
+      "id": 1,
+      "companyLogo": "https://blog.planview.com/wp-content/uploads/2020/01/Top-6-Software-Development-Methodologies.jpg",
+      "jobTitle": "Software Developer",
+      "companyName": "Google",
+      "remoteOrOnsite": "Remote",
+      "location": "Anywhere",
+      "fulltimeOrPartTime": "Full-time",
+      "salary": "$100,000 - $120,000",
+      "description": "We are seeking a skilled software developer to join our team...",
+      "jobResponsibility": "Develop and maintain software applications...",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+      "experiences": "At least 3 years of experience in software development...",
+      "contact": {
+        "phone": "555-555-5555",
+        "email": "jobs@abccompany.com"
+      }
+    },
+    {
+      "id": 2,
+      "companyLogo": "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/03/13211326/Marketing-Management.jpg",
+      "jobTitle": "Marketing Manager",
+      "companyName": "XYZ Corporation",
+      "remoteOrOnsite": "Onsite",
+      "location": "New York City, NY",
+      "fulltimeOrPartTime": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "description": "We are seeking a talented Marketing Manager...",
+      "jobResponsibility": "Develop and execute marketing strategies...",
+      "educationalRequirements": "Bachelor's degree in Marketing or related field...",
+      "experiences": "At least 5 years of experience in marketing...",
+      "contact": {
+        "phone": "555-555-5555",
+        "email": "jobs@xyzcorporation.com"
+      }
+    },
+    {
+      "id": 3,
+      "companyLogo": "https://img.freepik.com/free-vector/cartoon-graphic-design-landing-page_52683-70881.jpg",
+      "jobTitle": "Graphic Designer",
+      "companyName": "123 Design Studio",
+      "remoteOrOnsite": "Remote",
+      "location": "Anywhere",
+      "fulltimeOrPartTime": "Part-time",
+      "salary": "$30 - $50 ",
+      "description": "We are seeking a talented Graphic Designer...",
+      "jobResponsibility": "Create visually appealing graphics for a variety of projects...",
+      "educationalRequirements": "Associate's or Bachelor's degree in Graphic Design or related field...",
+      "experiences": "At least 2 years of experience in graphic design...",
+      "contact": {
+        "phone": "555-555-5555",
+        "email": "jobs@123designstudio.com"
+      }
+    },
+    {
+      "id": 4,
+      "companyLogo": "https://www.shutterstock.com/image-photo/sales-representative-on-blackboard-260nw-427775728.jpg",
+      "jobTitle": "Sales Representative",
+      "companyName": "Acme Corporation",
+      "remoteOrOnsite": "Onsite",
+      "location": "Chicago, IL",
+      "fulltimeOrPartTime": "Full-time",
+      "salary": "$50,000 - $70,000 ",
+      "description": "We are seeking a motivated Sales Representative...",
+      "jobResponsibility": "Sell products and services to clients...",
+      "educationalRequirements": "High school diploma or equivalent...",
+      "experiences": "At least 1 year of experience in sales...",
+      "contact": {
+        "phone": "555-555-5555",
+        "email": "jobs@acmecorporation.com"
+      }
+    },
+    {
+      "id": 5,
+      "companyLogo": "https://media.istockphoto.com/id/582256640/photo/oil-refinery-chemical-petrochemical-plant.jpg?s=612x612&w=0&k=20&c=BEdsHVe2vUfzRTb9KcsCS_tCH6_R_nKLKkOQCht8AKo=",
+      "jobTitle": "Chemical Industry",
+      "companyName": "Cam Corporation",
+      "remoteOrOnsite": "Onsite",
+      "location": "Uka,Dk",
+      "fulltimeOrPartTime": "Full-time",
+      "salary": "$54,000 - $78,000",
+      "description": "We are seeking a motivated ...",
+      "jobResponsibility": "Chemical are important ...",
+      "educationalRequirements": " equivalent or Bsc in Chemistry...",
+      "experiences": "At least 1 year of experience in Lab...",
+      "contact": {
+        "phone": "14-555-5555",
+        "email": "jobs@chem.com"
+      }
+    },
+    {
+      "id": 6,
+      "companyLogo": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "jobTitle": "Doctors",
+      "companyName": "Lab Aid",
+      "remoteOrOnsite": "Onsite",
+      "location": "Dhaka,Bangladesh",
+      "fulltimeOrPartTime": "Full-time",
+      "salary": "$80,000 - $170,000 ",
+      "description": "We are seeking a Surgery Doctor...",
+      "jobResponsibility": "For Operation ...",
+      "educationalRequirements": "MBBS from Dhaka Medical College...",
+      "experiences": "At least 1 year of experience in ...",
+      "contact": {
+        "phone": "404-555-5555",
+        "email": "jobs@labaid.com"
+      }
+    }
+    
+    
+    
+    
+    
+    
+    ]
+    
