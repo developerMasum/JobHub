@@ -1,10 +1,11 @@
 import { CogIcon, CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Feature = ({feature}) => {
 
-   const {contact,experiences,educationalRequirements,jobResponsibility,description,salary,fulltimeOrPartTime,location,remoteOrOnsite,companyName,jobTitle,companyLogo} = feature;
-    console.log(feature);
+   const {id,contact,experiences,educationalRequirements,jobResponsibility,description,salary,fulltimeOrPartTime,location,remoteOrOnsite,companyName,jobTitle,companyLogo} = feature;
+    // console.log(feature);
     return (
         <div className="p-12">
         <div className=" p-3 ps-3 w-[98%] gap-6 bg-base-100 shadow-xl hover:border-sky-400">
@@ -29,7 +30,7 @@ const Feature = ({feature}) => {
           </div>
         </div>
        <div>
-         <button className='px-3 py-2 mt-3 bg-blue-300 rounded-md '> View Details </button>
+         <Link to = {`details/${id}`}> <button className='px-3 py-2 mt-3 bg-blue-300 rounded-md '> View Details </button></Link>
        </div>
       </div>
   

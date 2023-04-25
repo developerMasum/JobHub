@@ -8,8 +8,11 @@ import {
   } from "react-router-dom";
   import "./index.css";
 import Home from './components/Home/Home';
-import Feature from './components/Features/Feature';
+// import Feature from './components/Features/Feature';
 import JobDetails from './components/JobDetails/JobDetails';
+import ErrorPage from './components/ErrorPage/ErrorPage';
+import Blog from './components/Blog/Blog';
+// import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 // import About from './components/About';
 // import Home from './components/Home/Home';
 // import Books from './components/Books/Books';
@@ -20,6 +23,7 @@ import JobDetails from './components/JobDetails/JobDetails';
     {
         path:'/',
         element: <App></App>,
+        errorElement: <ErrorPage />,
         // errorElement: <ErrorPage/>,
         children:[
             {
@@ -30,10 +34,15 @@ import JobDetails from './components/JobDetails/JobDetails';
            
             },
             {
-              path:'book/:id',
-                element: <JobDetails />,
-                loader: ({params})=>fetch(`https://api.itbook.store/1.0/books/${params.id}`)
+              path: 'details/:id',
+              element: <JobDetails />,
+              loader: ()=> fetch('featuredJobs.json'),
+
                 
+            },
+            {
+              path: 'blog',
+              element:<Blog />
             }
         
         

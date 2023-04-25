@@ -1,11 +1,18 @@
-import React from 'react';
+// import React from 'react';
+// import { useLoaderData } from 'react-router-dom';
 
-const JobDetails = () => {
-    return (
-        <div>
-            <h3>Details</h3>
-        </div>
-    );
-};
+// const JobDetails = () => {
+//     // const a = useLoaderData();
+//     // //     console.log(a);
+//     // //     // console.log(a);
+//     // const featured  = a.filter(single => console.log(single.id)) 
+   
+//     return (
+//         <div>
+//        <h2>ok </h2>
+       
+//         </div>
+//     );
+// };
 
-export default JobDetails;
+// export default JobDetails;

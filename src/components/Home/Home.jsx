@@ -7,17 +7,26 @@ import JobCategory from "../JobCategory/JobCategory";
 import Feature from "../Features/Feature";
 
 const Home = () => {
-  const categories = useLoaderData();
+  const categories = useLoaderData(); 
 //   const features = useLoaderData();
 //   console.log(feature);
   // console.log(categories);
 
+ 
+
   const [features,setFeatures] = useState([]);
+
+
+
   useEffect(()=>{
     fetch('featuredJobs.json')
     .then(res=>res.json())
     .then(data=>setFeatures(data))
   },[])
+
+
+
+
 
   return (
     <section>
@@ -74,11 +83,15 @@ const Home = () => {
 
         <div className="mt-3">
           <div className="grid ms-5 p-5 gap-6 mb-8 lg:grid-cols-4 sm:grid-cols-2">
-            {categories.map((category) => (
+
+           { categories.map(c=>console.log(c)) }
+
+
+            {/* {categories.map((category) => (
               <JobCategory key={category.id} category={category}>
-                {" "}
+               
               </JobCategory>
-            ))}
+            ))} */}
           </div>
         </div>
       </div>
@@ -113,7 +126,7 @@ const Home = () => {
 
 </div>
 <div className="flex justify-center mb-5">
-         <button className='px-3 py-2 mt-3 bg-blue-300 rounded-md '> See More </button>
+         <button  className='px-3 py-2 mt-3 bg-blue-300 rounded-md '> See More </button>
        </div>
 
     </section>
